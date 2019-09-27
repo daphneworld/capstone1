@@ -110,7 +110,23 @@ Among the multiclass prediction models, extra trees classifier achieved the best
    
  ## Conclusion
  
+ There is not a correlation between Yelp ratings and safety levels of the childcare centers. There are 20 childcare centers with '1' rating.  Two of them are in 'Safe' category. There are also many '5' rating childcare centers with a high number of violations. One of the most common ways to find the right daycare is the recommendation of other parents. However, these results show that the parents are not accurate detectors for the safety level of a childcare center. A limitation of this approach is that it relies upon high participation of parents to rate the facilities. There are many daycares with only one or two ratings. Yelp can be a powerful screening tool if there is support from a user base within the community. It may improve the quality of the results.
  
+This model focused on the number of health code rating. It could also use for a more specific group of health code violations such as public health hazard or critical violations. For this study, the prediction of violations practiced by childcare centers owners and employees does not forecast the behaviors of these facilities in the future.  The follow-up studies were ideal for defining the ensuing situations.
+
+This study offers proof that inspection data is useful to predict potential child health risks. We are aware that it is not something that will be easily replicated by the general public.  However, public health departments can build upon our methods and offer information to the public about the risks that have been identified by inspectors. This method will assist in prioritizing which facilities may require more intensive inspections and follow up visits. It is important to note that the system of assigning health code violations by inspectors may not be enough. 
+
+## Recommendations
+
+All families have a right to receive high-quality care for their child.  It is health departments job to ensure that childcare centers have safe and healthy environments for children. Another dimension of their job is to share their findings with the authorities and the public. However, it is crucial to articulate this output understandably. Sharing the actual violation reason rather than violation scores may have practical impacts both for parents and childcare centers. 
+
+There is a need for a system that parents can access easily, and quickly to communicate with authorities to get information and also share their reviews. This method may catch elements that inspectors have already seen, but it also identifies what the inspectors have not yet seen, and may be unable to detect. 
+
+## Further improvements
+
+Future studies, including the childcare center tuitions and the income level of regions, would contribute to the findings we report here. Also, sentiment analysis of Yelp reviews may be more beneficial than ratings for the benefit of public health.
+ 
+
 
 
 
