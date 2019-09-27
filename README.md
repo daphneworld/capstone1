@@ -83,5 +83,25 @@ Childcare centers are annually inspected by New York City childcare inspection o
   
   ## Machine Learning
   
+  A new column is added to the data set, which shows the three safety levels of childcare centers. The thresholds specify the safety levels, as shown below:
   
+```Python
+Safety = [] 
+for value in df.iloc[:,1]: 
+    if value >=5 and value<=12 : 
+        Safety.append("Warning") 
+    elif value <= 4: 
+        Safety.append("Safe") 
+    else: 
+        Safety.append("Not Safe") 
+       
+df["Safety"] = Safety    
+```
+
+New York City Health center provide childcare performance summary card for parents to see recent inspection results.
+
+![cpsc](https://www.nysenate.gov/sites/default/files/childcare_performance_card_-_6.2.jpg)
+
+However it is hard to interpret violation rates and understand without a comparison with other facilities. This model aim to give a basic prediction for safety level of a childcare center. If a facility have less than or equal to 4 inspection visit, it is in `Safe` category. If the inspection visit number is more than 4 and less than or equal to 12, it is in `Warning` category. More than 12 visit correspond to the `Not Safe`category.
+
 
