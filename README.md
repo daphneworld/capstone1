@@ -102,6 +102,15 @@ New York City Health center provide childcare performance summary card for paren
 
 ![cpsc](https://www.nysenate.gov/sites/default/files/childcare_performance_card_-_6.2.jpg)
 
-However it is hard to interpret violation rates and understand without a comparison with other facilities. This model aim to give a basic prediction for safety level of a childcare center. If a facility have less than or equal to 4 inspection visit, it is in `Safe` category. If the inspection visit number is more than 4 and less than or equal to 12, it is in `Warning` category. More than 12 visit correspond to the `Not Safe`category.
+However it is hard to interpret and understand violation rates without a comparison with other facilities. This model aim to give a basic prediction for safety level of a childcare center. If a facility have less than or equal to 4 inspection visit, it is in `Safe` category. If the inspection visit number is more than 4 and less than or equal to 12, it is in `Warning` category. More than 12 visit correspond to the `Not Safe`category.
+
+Among the multiclass prediction models, extra trees classifier achieved the best results. The model evaluated with different metrics. The average acuracy score is 0.97 and hamming loss is 0.02. For more information about the exploratory data analysis process, please see the link below:
+
+   - [Machine Learning Analysis](https://github.com/daphneworld/capstone1/blob/master/ML%20analysis.ipynb)
+   
+ ## Conclusion
+ 
+ 
+
 
 
