@@ -107,6 +107,7 @@ However it is hard to interpret and understand violation rates without a compari
 Among the multiclass prediction models, extra trees classifier achieved the best results. The model evaluated with different metrics. The average acuracy score is 0.97 and hamming loss is 0.02. For more information about the exploratory data analysis process, please see the link below:
 
    - [Machine Learning Analysis](https://github.com/daphneworld/capstone1/blob/master/ML%20analysis.ipynb)
+   - [Presentation slides](https://github.com/daphneworld/capstone1/blob/master/Childcare_center_Presentation.pdf)
    
  ## Conclusion
  
