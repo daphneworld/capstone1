@@ -63,15 +63,15 @@ Childcare centers are annually inspected by New York City childcare inspection o
 
   - The number of violation based on regions are respectively;
   
-   - In Brooklyn, 11662 violations observed in 1219 schools.
+    - In Brooklyn, 11662 violations observed in 1219 schools.
    
-   - In Queens, 8493 violations observed in 681 schools.
+    - In Queens, 8493 violations observed in 681 schools.
    
-   - In Manhattan, 8319 violations observed in 735 schools.
+    - In Manhattan, 8319 violations observed in 735 schools.
    
-   - In Bronx, 7926 violations observed in 438 schools.
+    - In Bronx, 7926 violations observed in 438 schools.
    
-   - In Staten Island, 1676 violation observed in 139 schools.
+    - In Staten Island, 1676 violation observed in 139 schools.
    
   - The top three childcare centers with the highest number of violation are;
   
